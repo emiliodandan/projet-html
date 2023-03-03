@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=|, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="nav">
+        <a href="D:\projet I2201\projet.html"><img src="D:\projet I2201\bc7551122994937.Y3JvcCwxMDgwLDg0NCwwLDExNw.png" alt="logo" style="width:50px"></a>
+        <h2 class="title">Appetito</h2>
+        <div class="pages">
+            <a href="D:\projet I2201\projet.html">Home</a>
+            <a href="D:\projet I2201\reservation.html">Book a table</a>
+            <a href="restaurant menu.html">Restaurant menu</a>
+            <a href="D:\projet I2201\about.html">About</a>
+            <a href="D:\projet I2201\contacts.html">Contacts</a>
+        </div>
+    </section>
+    <section id="book a table" class="book a table">
+        <h2>Book a Table</h2>
+        <form class="reservation form">
+            <div class="left">
+                <h3>Opening hours:</h3>
+                <p>
+                    <div class="days">Monday-Sunday</div>
+                    <div class="hours">11:00 AM-9:00 PM</div>
+                </p>
+                <h3>Additional Infos:</h3>
+                <strong>Phone:</strong>
+                <a href="tel:81 247072">81-247072</a><br>
+                <strong>Adress:</strong>
+                <a href="Beirut-Lebanon">Beirut-Lebanon</a>
+                <div>Here you can add details that will be displayed for visitors on the reservation page, such as an explanation about the restaurant, restaurant location, and other important information that you want to inform your visitors about.</div>
+            </div>
+            <div class="right">
+                <div class="tablesize">
+                    <label for="table size">Choose Table Size:
+               <select class="table size" name="tablesize">
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+                   <option value="6">6</option>
+                   <option value="7">7</option>
+                   <option value="8">8</option>
+                   <option value="9">9</option>
+                   <option value="10">10</option>
+               </select>
+              </label>
+                </div>
+                <div class="date">
+                    <label for="date">Choose a Day:</label>
+                    <input type="date">
+                </div>
+                <div class="tableHour">
+                    <label for="tableHour">Choose a Time:</label>
+                    <select class="table-hour" name="tableHour"><option value="11:00">11:00 AM</option><option value="11:15">11:15 AM</option><option value="11:30">11:30 AM</option><option value="11:45">11:45 AM</option><option value="12:00">12:00 PM</option><option value="12:15">12:15 PM</option><option value="12:30">12:30 PM</option><option value="12:45">12:45 PM</option><option value="13:00">01:00 PM</option><option value="13:15">01:15 PM</option><option value="13:30">01:30 PM</option><option value="13:45">01:45 PM</option><option value="14:00">02:00 PM</option><option value="14:15">02:15 PM</option><option value="14:30">02:30 PM</option><option value="14:45">02:45 PM</option><option value="15:00">03:00 PM</option><option value="15:15">03:15 PM</option><option value="15:30">03:30 PM</option><option value="15:45">03:45 PM</option><option value="16:00">04:00 PM</option><option value="16:15">04:15 PM</option><option value="16:30">04:30 PM</option><option value="16:45">04:45 PM</option><option value="17:00">05:00 PM</option><option value="17:15">05:15 PM</option><option value="17:30">05:30 PM</option><option value="17:45">05:45 PM</option><option value="18:00">06:00 PM</option><option value="18:15">06:15 PM</option><option value="18:30">06:30 PM</option><option value="18:45">06:45 PM</option><option value="19:00">07:00 PM</option><option value="19:15">07:15 PM</option><option value="19:30">07:30 PM</option><option value="19:45">07:45 PM</option><option value="20:00">08:00 PM</option><option value="20:15">08:15 PM</option><option value="20:30">08:30 PM</option><option value="20:45">08:45 PM</option></select>
+                </div>
+                <div class="make order">
+                    <button type="button" class="make-order">Make Order</button>
+                </div>
+            </div>
+        </form>
+    </section>
+    <section>
+        <div class="footer-social">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-telegram"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-youtube"></a>
+        </div>
+    </section>
+</body>
+
+</html>

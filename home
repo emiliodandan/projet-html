@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appetito</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="nav">
+        <a href="D:\projet I2201\projet.html"><img src="D:\projet I2201\bc7551122994937.Y3JvcCwxMDgwLDg0NCwwLDExNw.png" alt="logo" style="width:50px"></a>
+        <h2 class="title">Appetito</h2>
+        <div class="pages">
+            <a href="D:\projet I2201\projet.html">Home</a>
+            <a href="D:\projet I2201\reservation.html">Book a table</a>
+            <a href="restaurant menu.html">Restaurant menu</a>
+            <a href="D:\projet I2201\about.html">About</a>
+            <a href="D:\projet I2201\contacts.html">Contacts</a>
+        </div>
+    </section>
+    <br>
+    <section id="home" class="home">
+        <h1>Eat Good, Feel Good</h1>
+        <p>Wonderful Food with Wonderful People</p>
+    </section>
+    <section class="form-section">
+        <h2>Registration</h2>
+        <form>
+            <label>First Name:
+          <input name="name" type="text" placeholder="First Name" required ><br><br>
+          Last Name:
+          <input name="name" type="text" placeholder="Last Name" required><br><br>
+          Email Adress:
+          <input name="name" type="email" placeholder="...@gmail.com" required><br><br>
+          Password:
+          <input name="name" type="password" required><br><br>
+          Confirm Password:
+          <input name="name" type="password" required><br><br>
+        </label>
+            <button type="submit">submit</button>
+        </form>
+    </section>
+    <section>
+        <div class="footer-social">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-telegram"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-youtube"></a>
+        </div>
+    </section>
+</body>
+
+</html>

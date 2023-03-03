@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="nav">
+        <a href="D:\projet I2201\projet.html"><img src="D:\projet I2201\bc7551122994937.Y3JvcCwxMDgwLDg0NCwwLDExNw.png" alt="logo" style="width:50px"></a>
+        <h2 class="title">Appetito</h2>
+        <div class="pages">
+            <a href="D:\projet I2201\projet.html">Home</a>
+            <a href="D:\projet I2201\reservation.html">Book a table</a>
+            <a href="restaurant menu.html">Restaurant menu</a>
+            <a href="D:\projet I2201\about.html">About</a>
+            <a href="D:\projet I2201\contacts.html">Contacts</a>
+        </div>
+    </section>
+    <h2 style="margin-top: 80px;">About</h2>
+    <p class="infos" style="width: 30%; color:black">This restaurant was founded by the famous entrepreneur Maroun Abi Daher in November the 5th 2020, partnering with the best chef in town Emilio Dandan. 'Appetitto' is based on an italian cuisine, serving the best plates with a special twist. Tourists
+        all over the world crave the 'Ultimate Deal' since it contains the special sauce of 'Appetito' made by Chef Emilio, the rising lebanese millionaire. And when it comes to Mr Maroun, it is not his first successfull business, the young man is famously
+        known for turning everything from no money into fortunes.
+    </p>
+    <iframe width="350" height="320" src="https://www.youtube.com/embed/a9Q6vUxNCvc" title="Time and Temperature - Foodservice" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
+        style="position: absolute; top: 150px; right:100px"></iframe>"
+    <section>
+        <div class="footer-social">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-telegram"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-youtube"></a>
+        </div>
+    </section>
+</body>
+
+</html>

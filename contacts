@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="nav">
+        <a href="D:\projet I2201\projet.html"><img src="D:\projet I2201\bc7551122994937.Y3JvcCwxMDgwLDg0NCwwLDExNw.png" alt="logo" style="width:50px"></a>
+        <h2 class="title">Appetito</h2>
+        <div class="pages">
+            <a href="D:\projet I2201\projet.html">Home</a>
+            <a href="D:\projet I2201\reservation.html">Book a table</a>
+            <a href="restaurant menu.html">Restaurant menu</a>
+            <a href="D:\projet I2201\about.html">About</a>
+            <a href="D:\projet I2201\contacts.html">Contacts</a>
+        </div>
+    </section>
+    <section id="section-5ad488bcc7cca" class="s123-module s123-module-contact layout-1" data-module-id="5ad488bcc7cca" data-module-type-num="7">
+        <div data-aos="fade-up" class="container-fluid page_header_style noBackground">
+            <div class="row">
+                <div class="container moduleTitleContainer">
+                    <div class="row modulesTitle text-center">
+                        <div class="col-xs-12">
+                            <div class="page-header-wrap">
+                                <H2 id="section-5ad488bcc7cca-title" data-original-title="Contact" class="s123-page-header " style="margin-top: 80px">Contact</H2>
+                                <hr class="small">
+                            </div>
+                            <div class="page-slogan-wrap">
+                                <h4 id="section-5ad488bcc7cca-slogan" class="s123-page-slogan"></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" data-aos="fade-up">
+            <div class="row text-center">
+                <div class="col-md-5 preview-highlighter" style="text-align: center;">
+                    <ul class="list-unstyled contact-as-details-container">
+                        Beirut, Beyrouth, Lebanon
+                    </ul>
+                    <ul class="list-unstyled contact-as-details-container">
+                        <a href="tel:81/247072"><i class="svg-m s123-icon-converter " data-icon-name="phone" style=" mask: url('https://static1.s123-cdn-static-a.com/ready_uploads/svg/phone.svg?v=2'); -webkit-mask: url('https://static1.s123-cdn-static-a.com/ready_uploads/svg/phone.svg?v=2');" data-ie11-classes="" alt="fa fa-phone">&nbsp;</i><span dir="ltr">81/247072</span></a><br>
+                        <a href="mailto:emilio.dandan@gmail.com"><i class="svg-m s123-icon-converter  fa-fw" data-icon-name="envelope-o" style=" mask: url('https://static1.s123-cdn-static-a.com/ready_uploads/svg/envelope-o.svg?v=2'); -webkit-mask: url('https://static1.s123-cdn-static-a.com/ready_uploads/svg/envelope-o.svg?v=2');" data-ie11-classes=" fa-fw" alt="envelope-o">&nbsp;</i>emilio.dandan@gmail.com</a>
+                    </ul>
+                </div>
+                <form class="breakable contactUsForm " data-date-format="d/m/Y" data-click-action="" style="text-align: center">
+                    <div class="preview-highlighter col-md-6 col-md-offset-1">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group"> <input type="text" name="contact_name" placeholder="Name" class="form-control" required data-msg-required="This field is required."> </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group"> <input type="text" name="contact_phone" placeholder="Phone" class="form-control"> </div>
+                            </div>
+                        </div>
+                        <div class="form-group"> <input type="text" name="contact_email" placeholder="Email address" class="form-control s123-force-ltr" required data-msg-required="This field is required." data-rule-email="true" data-msg-email="Please enter a valid email."> </div>
+                        <div class="form-group"> <textarea class="form-control" name="contact_message" placeholder="Message" style="min-height: 100px;"></textarea> </div> <button type="submit" class="btn btn-primary btn-block" aria-label="Contact Us">Contact Us</button> </div>
+                    <input type="hidden" name="w" value="7557661"> <input type="hidden" name="websiteID" value="7557661"> <input type="hidden" name="moduleID" value="5ad488bcc7cca"> <input type="hidden" name="layout" value="1">
+                    <input type="hidden" name="recaptchaToken" value=""> </form>
+            </div>
+        </div>
+        <section>
+            <div class="footer-social">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-telegram"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </div>
+        </section>
+</body>
+
+</html>

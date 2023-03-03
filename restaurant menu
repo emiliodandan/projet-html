@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Restaurant menu</title>
+    <script>
+        function show(elementId) {
+            document.getElementById(elementId).style.display = 'block';
+        }
+
+        function hide(elementId) {
+            document.getElementById(elementId).style.display = 'none';
+        }
+    </script>
+    <style>
+        .dessert {
+            display: none;
+        }
+        
+        .restaurant-menu {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="nav">
+        <a href="D:\projet I2201\projet.html"><img src="D:\projet I2201\bc7551122994937.Y3JvcCwxMDgwLDg0NCwwLDExNw.png" alt="logo" style="width:50px"></a>
+        <h2 class="title">Appetito</h2>
+        <div class="pages">
+            <a href="D:\projet I2201\projet.html">Home</a>
+            <a href="D:\projet I2201\reservation.html">Book a table</a>
+            <a href="restaurant menu.html">Restaurant menu</a>
+            <a href="D:\projet I2201\about.html">About</a>
+            <a href="D:\projet I2201\contacts.html">Contacts</a>
+        </div>
+    </section>
+    <h2 style="margin-top:80px">Restaurant menu</h2>
+    <div class="menu">
+        <a href="#mainmenu" data-filter="main-menu" onclick="show('mainmenu'); hide('dessert')">Main Menu</a>
+        <a href="#dessert" data-filter="desserts" onclick="show('dessert'); hide('mainmenu')">Desserts</a>
+    </div>
+    <div class="restaurant-menu" data-filter="main-menu" id="mainmenu">
+        <h3>Main Menu</h3>
+        <div class="menu-block">
+            <div class="items">
+                <div class="item-image">
+                    <img src="D:\projet I2201\800_5a15ac20180ec.webp" alt="Pasta"></div>
+                <div class="item-details">
+                    <h4>Pasta</h4>
+                    <p style="color:black">Pasta with sheep's milk ricotta, spinach, tomato sauce and basil</p>
+                    <span class="prices">
+                                <span data-rel="multiCurrency" dir="ltr">
+                                    <span data-type="price">13.50</span>
+                    <span data-type="symbol">$</span>
+                    </span>
+                    </span>
+                </div>
+            </div>
+            <div class="items">
+                <div class="item-image">
+                    <img src="D:\projet I2201\800_5a15ac49c4156.webp" alt="Flash Steak"></div>
+                <div class="item-details">
+                    <h4>Flash Steak</h4>
+                    <p style="color:black">Pounded with prosciutto &amp; sage</p>
+                    <span class="prices">
+                                        <span data-rel="multiCurrency" dir="ltr">
+                                            <span data-type="price">9.50</span>
+                    <span data-type="symbol">$</span>
+                    </span>
+                    </span>
+                </div>
+            </div>
+            <div class="items">
+                <div class="item-image">
+                    <img src="D:\projet I2201\800_5a15ac6e24c69.webp" alt="Tagliatelle Bolognese">
+                </div>
+                <div class="item-details">
+                    <h4>Tagliatelle Bolognese</h4>
+                    <p style="color:black">Gennaro’s original bolognese recipe.</p>
+                    <span class="prices">
+                                            <span data-rel="multiCurrency" dir="ltr">
+                                                <span data-type="price">8.50</span>
+                    <span data-type="symbol">$</span>
+                    </span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="dessert" id="dessert">
+        <div class="desserts">
+            <h3>Desserts</h3>
+            <div class="desserts-block">
+                <div class="items">
+                    <div class="item-image">
+                        <img src="D:\projet I2201\800_5a15ad62ca908.webp" alt="Ice Cream"></div>
+                    <div class="item-details">
+                        <h4>Ice Cream</h4>
+                        <p style="color:black">Three delicious scoops of ice cream served with any two of these toppings.</p>
+                        <span class="prices">
+                                                    <span data-rel="multiCurrency" dir="ltr">
+                                                        <span data-type="price">4.95</span>
+                        <span data-type="symbol">$</span>
+                        </span>
+                        </span>
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="item-image">
+                        <img src="D:\projet I2201\800_5a15ad23d623d.webp" alt="Frozen Yogurt"></div>
+                    <div class="item-details">
+                        <h4>Frozen Yogurt</h4>
+                        <p style="color:black">Fresh strawberries soaked in elderflower &amp; lemon juice.</p>
+                        <span class="prices">
+                                                        <span data-rel="multiCurrency" dir="ltr">
+                                                            <span data-type="price">5.60</span>
+                        <span data-type="symbol">$</span>
+                        </span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <section>
+        <div class="footer-social">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-telegram"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-youtube"></a>
+        </div>
+    </section>
+</body>
+
+</html>
